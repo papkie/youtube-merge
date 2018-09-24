@@ -1,0 +1,24 @@
+{
+  "name": "youtube-merge",
+  "version": "1.0.0",
+  "description": "Website that allows to merge two youtube videos. First one for image, second one for sound.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/papkie/youtube-merge.git"
+  },
+  "author": "Paweł Papkiewicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/papkie/youtube-merge/issues"
+  },
+  "homepage": "https://github.com/papkie/youtube-merge#readme",
+  "dependencies": {
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.3",
+    "ytdl-core": "^0.25.2"
+  }
+}
